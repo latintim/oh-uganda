@@ -1,0 +1,48 @@
+.flag {
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.flag > div:not(.circle) {
+    width: 600px;
+    height: 50px;
+}
+.black1, .black2 {
+    background-color: #000000;
+}
+
+.yellow1, .yellow2 {
+    background-color: #ffff00;
+}
+
+.red1, .red2 {
+    background-color: #ff0000;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.circle img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.text {
+    font-family: 'Libre Baskerville', serif;
+    width: 600px;
+    box-sizing: border-box;
+}
