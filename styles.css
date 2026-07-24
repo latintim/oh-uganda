@@ -43,6 +43,7 @@
 
 .text {
     font-family: 'Libre Baskerville', serif;
-    width: 600px;
+    font-size: 1.5rem;
+    width: 900px;
     box-sizing: border-box;
 }
